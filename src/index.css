@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Source Serif Pro";
+  src:
+    url("./assets/fonts/SourceSerifPro-Regular.woff2") format("woff2"),
+    url("./assets/fonts/SourceSerifPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-work-sans: "Work Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-source-serif-pro: "Source Serif Pro", serif;
+
+  --color-secondary-900: #141624;
+  --color-secondary-800: #181a2a;
+  --color-secondary-600: #3b3c4a;
+  --color-secondary-500: #696a75;
+  --color-secondary-400: #97989f;
+  --color-secondary-100: #e8e8ea;
+  --color-secondary-50: #f6f6f7;
+
+  --color-theme-primary: #4b6bfb;
+  --color-theme-primary-light: rgba(75, 107, 251, 0.05);
+
+  --color-search-bg: #f4f4f5;
+}
+
+@utility header {
+  @apply mx-auto flex w-282.5 max-w-full items-center justify-between px-4 py-8 max-[500px]:flex-col max-[500px]:gap-5;
+}
+
+@utility home-link {
+  @apply font-work-sans text-secondary-600 text-base font-normal;
+}
+
+@utility post-card {
+  @apply border-secondary-100 w-98 max-w-full cursor-pointer rounded-xl border p-4 transition hover:scale-105 hover:shadow-xl;
+}
+
+@utility post-category-main {
+  @apply font-work-sans inline-block rounded-md text-sm font-medium;
+}
+
+@utility post-category-card {
+  @apply bg-theme-primary-light text-theme-primary mt-6 mb-4 px-2.5 py-1;
+}
+
+@utility post-category-details {
+  @apply bg-theme-primary px-3 py-1.5 text-white;
+}
+
+@utility post-title {
+  @apply font-work-sans text-secondary-800 pt-4 pb-5 font-semibold;
+}
+
+@utility post-author-main {
+  @apply font-work-sans flex items-center font-medium max-[400px]:flex-col max-[400px]:gap-0.5;
+}
+
+@utility post-author-card {
+  @apply text-secondary-400 w-80 max-w-full text-base;
+}
+
+@utility post-author-details {
+  @apply text-secondary-500 w-66.5 text-sm;
+}
+
+@utility load-more-button {
+  @apply font-work-sans text-secondary-500 hover:bg-secondary-50 my-8 cursor-pointer rounded-md border border-[#696A754D] px-5 py-3 text-base font-medium transition;
+}
+
+@utility post-paragraph {
+  @apply font-source-serif-pro mt-4 mb-6 text-xl font-normal max-[500px]:text-lg;
+}
+
+@utility ads-area {
+  @apply font-work-sans text-secondary-500 bg-secondary-50 mx-auto mt-4 mb-6 flex h-25 w-187.5 max-w-full flex-col items-center justify-center rounded-xl font-normal;
+}
+
+@utility blockquote {
+  @apply font-source-serif-pro bg-secondary-50 border-l-secondary-100 mt-4 mb-6 rounded-xl border-l-4 p-8 text-2xl font-normal;
+}
+
+@utility home-page {
+  @apply mx-auto flex w-304 max-w-full flex-wrap justify-center gap-5 max-[400px]:px-1;
+}
+
+@utility page-not-found {
+  @apply mx-auto flex w-304 max-w-full flex-wrap justify-center gap-5 text-red-500;
+}
