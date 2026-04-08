@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import type { Post } from "../../types";
 import PostAuthor from "../PostAuthor";
 import PostCategory from "../PostCategory";
@@ -7,21 +7,16 @@ import { Link } from "react-router";
 import { PostsContext } from "../../contexts/PostsContext";
 
 const PostCard = ({ post }: { post: Post }) => {
-  const [postImage, setPostImage] = useState<string>("");
   const { setIsSearchResult } = useContext(PostsContext);
 
-  useEffect(() => {
-      setPostImage(post.image);
-
-  }, [post.image]);
 
   return (
     <article className="post-card">
       <Link className="block" to={`/post/${post.id}`} onClick={() => setIsSearchResult(false)}>
-        {postImage && (
+        {post.image && (
           <img
             className="h-60 w-90 max-w-full rounded-xl"
-            src={postImage}
+            src={post.image}
             alt={`post-${post.id}-image`}
           />
         )}

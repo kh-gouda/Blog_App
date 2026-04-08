@@ -1,13 +1,6 @@
-import { useEffect, useState } from "react";
 import type { PostAutherTypes } from "../../types";
 
 const PostAuthor = ({ parent, postAuthor, datePublished }: PostAutherTypes) => {
-  const [authorImage, setAuthorImage] = useState<string>("");
-
-  useEffect(() => {
-      setAuthorImage(postAuthor.image);
-  }, [postAuthor.image]);
-
   return (
     <div
       className={`post-author-main ${
@@ -15,10 +8,10 @@ const PostAuthor = ({ parent, postAuthor, datePublished }: PostAutherTypes) => {
       }`}
       data-testid="post-author"
     >
-      {authorImage && (
+      {postAuthor.image && (
         <img
           className="h-9 w-9 rounded-full"
-          src={authorImage}
+          src={postAuthor.image}
           alt="authorImage"
         />
       )}
