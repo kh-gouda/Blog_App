@@ -5,13 +5,7 @@ const PostAuthor = ({ parent, postAuthor, datePublished }: PostAutherTypes) => {
   const [authorImage, setAuthorImage] = useState<string>("");
 
   useEffect(() => {
-    const loadImage = async () => {
-      const imageModule = await import(
-        /* @vite-ignore */ `${postAuthor.image}`
-      );
-      setAuthorImage(imageModule.default);
-    };
-    loadImage();
+      setAuthorImage(postAuthor.image);
   }, [postAuthor.image]);
 
   return (

@@ -15,13 +15,8 @@ const PostDetails = () => {
 
   useEffect(() => {
     if (post?.details?.image) {
-      const loadImage = async () => {
-        const imageModule = await import(
-          /* @vite-ignore */ `${post.details.image}`
-        );
-        setPostImage(imageModule.default);
-      };
-      loadImage();
+      
+        setPostImage(post.details.image);
     }
   }, [post?.details?.image]);
 

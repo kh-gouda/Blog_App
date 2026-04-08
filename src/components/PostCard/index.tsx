@@ -11,11 +11,8 @@ const PostCard = ({ post }: { post: Post }) => {
   const { setIsSearchResult } = useContext(PostsContext);
 
   useEffect(() => {
-    const loadImage = async () => {
-      const imageModule = await import(/* @vite-ignore */ `${post.image}`);
-      setPostImage(imageModule.default);
-    };
-    loadImage();
+      setPostImage(post.image);
+
   }, [post.image]);
 
   return (
