@@ -4,7 +4,7 @@ import PostAuthor from "./index";
 const mockPost = {
   author: {
     name: "Tracey Wilson",
-    image: "/src/assets/images/authors/Tracey_Wilson.png",
+    image: "/images/authors/Tracey_Wilson.png",
   },
   datePublished: "August 20, 2022",
 };

@@ -107,16 +107,16 @@ Each post follows this schema (simplified):
 ```json
 {
   "id": 1,
-  "image": "/src/assets/images/card/post-1.webp",
+  "image": "/images/card/post-1.webp",
   "title": "The Impact of Technology on the Workplace",
   "category": "Technology",
   "author": {
     "name": "Tracey Wilson",
-    "image": "/src/assets/images/authors/Tracey_Wilson.png"
+    "image": "/images/authors/Tracey_Wilson.png"
   },
   "datePublished": "August 20, 2022",
   "details": {
-    "image": "/src/assets/images/single/post-1-d.webp",
+    "image": "/images/single/post-1-d.webp",
     "articles": [
       {
         "title": "Research Your Destination",

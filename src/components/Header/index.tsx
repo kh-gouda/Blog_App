@@ -1,5 +1,4 @@
 import { Link } from "react-router";
-import Logo from "../../assets/images/Logo.png";
 import SearchForm from "../SearchForm";
 import { useContext } from "react";
 import { PostsContext } from "../../contexts/PostsContext";
@@ -9,7 +8,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <img src={Logo} alt="Logo" />
+      <img src="/images/Logo.png" alt="Logo" />
       <Link to="/" className="home-link" onClick={handleHomeNavigation}>
         Home
       </Link>

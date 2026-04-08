@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "image": "/src/assets/images/card/post-1.webp",
+    "image": "/images/card/post-1.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Tracey Wilson",
-      "image": "/src/assets/images/authors/Tracey_Wilson.png"
+      "image": "/images/authors/Tracey_Wilson.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-1-d.webp",
+      "image": "/images/single/post-1-d.webp",
       "articles": [
         {
           "title": "",
@@ -72,16 +72,16 @@
   },
   {
     "id": 2,
-    "image": "/src/assets/images/card/post-2.webp",
+    "image": "/images/card/post-2.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Jason Francisco",
-      "image": "/src/assets/images/authors/Jason_Francisco.png"
+      "image": "/images/authors/Jason_Francisco.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-2-d.webp",
+      "image": "/images/single/post-2-d.webp",
       "articles": [
         {
           "title": "",
@@ -143,16 +143,16 @@
   },
   {
     "id": 3,
-    "image": "/src/assets/images/card/post-3.webp",
+    "image": "/images/card/post-3.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Elizabeth Slavin",
-      "image": "/src/assets/images/authors/Elizabeth_Slavin.png"
+      "image": "/images/authors/Elizabeth_Slavin.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-3-d.webp",
+      "image": "/images/single/post-3-d.webp",
       "articles": [
         {
           "title": "",
@@ -214,16 +214,16 @@
   },
   {
     "id": 4,
-    "image": "/src/assets/images/card/post-4.webp",
+    "image": "/images/card/post-4.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Ernie Smith",
-      "image": "/src/assets/images/authors/Ernie_Smith.png"
+      "image": "/images/authors/Ernie_Smith.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-4-d.webp",
+      "image": "/images/single/post-4-d.webp",
       "articles": [
         {
           "title": "",
@@ -285,16 +285,16 @@
   },
   {
     "id": 5,
-    "image": "/src/assets/images/card/post-5.webp",
+    "image": "/images/card/post-5.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Eric Smith",
-      "image": "/src/assets/images/authors/Eric_Smith.png"
+      "image": "/images/authors/Eric_Smith.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-5-d.webp",
+      "image": "/images/single/post-5-d.webp",
       "articles": [
         {
           "title": "",
@@ -356,16 +356,16 @@
   },
   {
     "id": 6,
-    "image": "/src/assets/images/card/post-6.webp",
+    "image": "/images/card/post-6.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Tracey Wilson",
-      "image": "/src/assets/images/authors/Tracey_Wilson.png"
+      "image": "/images/authors/Tracey_Wilson.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-6-d.webp",
+      "image": "/images/single/post-6-d.webp",
       "articles": [
         {
           "title": "",
@@ -427,16 +427,16 @@
   },
   {
     "id": 7,
-    "image": "/src/assets/images/card/post-7.webp",
+    "image": "/images/card/post-7.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Jason Francisco",
-      "image": "/src/assets/images/authors/Jason_Francisco.png"
+      "image": "/images/authors/Jason_Francisco.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-7-d.webp",
+      "image": "/images/single/post-7-d.webp",
       "articles": [
         {
           "title": "",
@@ -498,16 +498,16 @@
   },
   {
     "id": 8,
-    "image": "/src/assets/images/card/post-8.webp",
+    "image": "/images/card/post-8.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Jason Francisco",
-      "image": "/src/assets/images/authors/Jason_Francisco.png"
+      "image": "/images/authors/Jason_Francisco.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-8-d.webp",
+      "image": "/images/single/post-8-d.webp",
       "articles": [
         {
           "title": "",
@@ -569,16 +569,16 @@
   },
   {
     "id": 9,
-    "image": "/src/assets/images/card/post-9.webp",
+    "image": "/images/card/post-9.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Ernie Smith",
-      "image": "/src/assets/images/authors/Ernie_Smith.png"
+      "image": "/images/authors/Ernie_Smith.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-9-d.webp",
+      "image": "/images/single/post-9-d.webp",
       "articles": [
         {
           "title": "",
@@ -640,16 +640,16 @@
   },
   {
     "id": 10,
-    "image": "/src/assets/images/card/post-10.webp",
+    "image": "/images/card/post-10.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Tracey Wilson",
-      "image": "/src/assets/images/authors/Tracey_Wilson.png"
+      "image": "/images/authors/Tracey_Wilson.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-10-d.webp",
+      "image": "/images/single/post-10-d.webp",
       "articles": [
         {
           "title": "",
@@ -711,16 +711,16 @@
   },
   {
     "id": 11,
-    "image": "/src/assets/images/card/post-1.webp",
+    "image": "/images/card/post-1.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Tracey Wilson",
-      "image": "/src/assets/images/authors/Tracey_Wilson.png"
+      "image": "/images/authors/Tracey_Wilson.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-1-d.webp",
+      "image": "/images/single/post-1-d.webp",
       "articles": [
         {
           "title": "",
@@ -782,16 +782,16 @@
   },
   {
     "id": 12,
-    "image": "/src/assets/images/card/post-2.webp",
+    "image": "/images/card/post-2.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Jason Francisco",
-      "image": "/src/assets/images/authors/Jason_Francisco.png"
+      "image": "/images/authors/Jason_Francisco.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-2-d.webp",
+      "image": "/images/single/post-2-d.webp",
       "articles": [
         {
           "title": "",
@@ -853,16 +853,16 @@
   },
   {
     "id": 13,
-    "image": "/src/assets/images/card/post-3.webp",
+    "image": "/images/card/post-3.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Elizabeth Slavin",
-      "image": "/src/assets/images/authors/Elizabeth_Slavin.png"
+      "image": "/images/authors/Elizabeth_Slavin.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-3-d.webp",
+      "image": "/images/single/post-3-d.webp",
       "articles": [
         {
           "title": "",
@@ -924,16 +924,16 @@
   },
   {
     "id": 14,
-    "image": "/src/assets/images/card/post-4.webp",
+    "image": "/images/card/post-4.webp",
     "title": "The Impact of Technology on the Workplace: How Technology is Changing",
     "category": "Technology",
     "author": {
       "name": "Ernie Smith",
-      "image": "/src/assets/images/authors/Ernie_Smith.png"
+      "image": "/images/authors/Ernie_Smith.png"
     },
     "datePublished": "August 20, 2022",
     "details": {
-      "image": "/src/assets/images/single/post-4-d.webp",
+      "image": "/images/single/post-4-d.webp",
       "articles": [
         {
           "title": "",

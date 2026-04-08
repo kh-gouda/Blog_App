@@ -1,5 +1,4 @@
 import { useContext, useRef, type FormEvent } from "react";
-import searchIcon from "../../assets/images/search-outline.png";
 import { useNavigate } from "react-router";
 import { PostsContext } from "../../contexts/PostsContext";
 
@@ -34,7 +33,7 @@ const SearchForm = () => {
       />
       <img
         className="absolute top-2 right-2 translate-0.5 cursor-pointer"
-        src={searchIcon}
+        src="/images/search-outline.png"
         alt="Search"
         onClick={(e) =>
           handleSubmit(e as unknown as FormEvent<HTMLFormElement>)
